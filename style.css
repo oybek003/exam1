@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.child1{
+    margin-left: -100px;
+}
+
+.nav ul li:first-child{
+    color: red;
+
+}
+
+.nav ul li:nth-child(2){
+    color: red;
+}
+
+.nav ul li:last-child{
+    color: red;
+}
+
+.child2{
+    text-align: center;
+    align-content: center;
+    border: 2px solid red;
+    height: 30px;
+    width: 150px
+}
+
+.main2{
+    height: 533px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/bg\ picture.png);
+}
+
+.main2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.parent2{
+    margin-top: -200px;
+}
+
+.list{
+    text-align: center;
+    align-content: center;
+    margin-top: 100px;
+    width: 150px;
+    height: 50px;
+    background-color: #DE2E54CC;
+    border-radius: 10px;
+}
+
+.foot{
+    text-align: center;
+    margin-top: 65px;
+    align-content: center;
+}
+
+.parent5{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 65px;
+    text-align: start;
+}
+
+.parent5{
+    margin-top: 80px;
+}
+
+.baby5{
+    align-content: center;
+}
+
+.parent11{
+    background-color: #0EB4C1;
+    height: 460px;
+}
+
+.parent11 h2{
+    margin-top: 100px;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 65px;
+}
+
+
+
+.map{
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.map2{
+    width: 400px;
+    height: 250px;
+}
+
+.teg{
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    align-content: center;
+}
+
+.finish{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+.finish ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.finish2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.finish ul li:first-child{
+    color: red;
+}
